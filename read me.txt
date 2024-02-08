@@ -1,0 +1,2 @@
+this website utilizes composure php mailer, ezyang and twig.
+It is currently still under development but is currently primarily based on php.
