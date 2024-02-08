@@ -3,6 +3,7 @@ It is currently still under development but is currently primarily based on php.
 The website utilizes microsoft sql server or t-sql.
 
 A bit about Questionnaire.
+The php side to the website is fully functional but there is still more to add.
 
 The websites functionality includes; a library whereby pdf, doc, and docx files can be uploaded and displayed, and random maths questions, which include addition, multiplication, subtraction, and division. It has administrative functionality to upload values such as classes, subjects, and multiple choice questions and upload to the library as well as delete from the library. It includes a front page for subjects which can contain 10 links to youtube in order to gain an understanding of the subject matter and a descriptive text which allows the student to know which documents to read in order to understand the questions, and a multiple choice questionnaire which is unique to each subject.
 The library’s functionality works via two ways. When not in a class the library defaults to displaying all books. When in a class the books are restricted to displaying only the classes books in order to make the documents easier to find.
