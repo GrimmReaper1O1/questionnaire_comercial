@@ -2,6 +2,8 @@ this website utilizes composure php mailer, ezyang and twig.
 It is currently still under development but is currently primarily based on php.
 The website utilizes microsoft sql server or t-sql.
 
+A bit about Questionnaire.
+
 The websites functionality includes; a library whereby pdf, doc, and docx files can be uploaded and displayed, and random maths questions, which include addition, multiplication, subtraction, and division. It has administrative functionality to upload values such as classes, subjects, and multiple choice questions and upload to the library as well as delete from the library. It includes a front page for subjects which can contain 10 links to youtube in order to gain an understanding of the subject matter and a descriptive text which allows the student to know which documents to read in order to understand the questions, and a multiple choice questionnaire which is unique to each subject.
 The library’s functionality works via two ways. When not in a class the library defaults to displaying all books. When in a class the books are restricted to displaying only the classes books in order to make the documents easier to find.
 The maths portion creates number of a length put in by the student; however, if the number is too long the answer on the next page converts into a power number as a calculator would. For lesser equations it works perfectly and displays the correct answer in full form. It also tells you whether you got the answer right. It will also let the student know how many answers they got right and wrong in a running total. It allows decimal points to be added and randomly makes numbers negative if the student chooses. I envision it will be a great help in learning times tables.
