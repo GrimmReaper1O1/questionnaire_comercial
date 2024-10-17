@@ -1,11 +1,11 @@
-The questionnaire is built to utilize a theory of memory which allows for the cementation of memory via 
-it's usage to answer questions. Knowledge learnt from the subject page is thus utilized to answer a series of
+The questionnaire is built to utilize a theory of memory, which allows for the cementation of memory via 
+its usage to answer questions. Knowledge learnt from the subject page is thus utilized to answer a series of
 quesitons based on such knowledge. 
 The subject page is meant to consist of lengthy text and ment to overwhelm
-the individual with information. Hints can be used to jog the memory if the student but should only be used to
-initially mislead in order for the student to get the question wrong. Each individual quesiton set revolves so
-this is meant to be done on the first question. There should be at least four questions in each question set
-based on information needed to solve each question. At the end of the quesiton set information as a hint could 
+the individual with information. Hints can be used to jog the memory of the student but should only be used to
+initially mislead in order for the student to get the question wrong. Each individual quesiton set revolves. This 
+is meant to be done on the first question. There should be at least four questions in each question set
+based on information needed to solve each question. At the end of the quesiton set, information as a hint could 
 be given which jogs the students memory in the right direction. 
 There is an answer to every choice of quesiton and a reply to every choice of answer. These can be utilized to
 remind the individual of both how they got something right and how they got something wrong. Information can be 
@@ -14,8 +14,8 @@ to answer all the questions. Piece by piece you are meant to accumulate the info
 correctly. This allows the student to read more informaiton and utilizes repetition in reading useful information in
 order to learn and to learn the pitfalls of where people tend to get things wrong as well as cement the right information.
 The question sets are to be answered correctly a number of times before the questions are labeled complete and you are
-to move on to the next page although you may choose to have as many questions on each as the administrator likes. this
-number of quesitons should be short enough to be motivational and allow you to move on yet long enough for you to have 
+to move on to the next page, although you may choose to have as many questions on each page as the administrator likes. this
+number of quesitons should be short enough to be motivational and allow you to move on, yet long enough for you to have 
 trouble remembering the correct answer to previously asked questions on the next questionnaire pass.
 The theory is that cementation allows you to draw your memory more quickly if it is utilized enough times to fully cement 
 said memory; thus, you more quickly access memory in order to utilize it in any skill in formation including things 
@@ -118,20 +118,17 @@ Not correct. Although however is one of these words it is not in the correct pla
 Hint
 However is one of the words to use with the semi-column.
 
-I need you to buy; milk, poultry, sour dough bread, coffee, a banjo, beef jerky, chocolate, glasses, wine, outdoor furniture, a jukebox or another kind of stereo, music to play or a spotify subscription, a mobile phone, honey, cake, and about fifty other things. We need them for the party; which is your sons by the way.
+I need you to buy; milk, poultry, sour dough bread, coffee, a banjo, beef jerky, chocolate, glasses, wine, outdoor furniture, a jukebox or another kind of stereo, music to play or a spotify subscription, a mobile phone, honey, cake, and about fifty other things. We need them for the party; it's is your sons by the way.
 Reply
 Correct! You utilize the semi-column at the start of a long list and in between two short sentences in relation to each other.
 Hint 
 A semi-colun is used after a complete sentence with a conjunctive adverb.
 
-There are administrative functions and a library which if within a class will limit the shown books to the class.
-You can alter or fill out the questionnaire in the administrative functions but a subject must be taken down.
+There are administrative functions and a library, which if within a class will limit the shown books to the class.
+You can alter or fill out the questionnaire in the administrative functions, but a subject must be taken down.
 There is also a way to quickly learn multiplication or at least utilize the times tables for cementation.
-There are three levels of administrative users to primarily protect students and confidential information.
-One is like the administrative assistant who can fill out quesitonnaires only.
-
-Another can view the recorded test results and search for students given they know their email or name.
-The last is all access. There is also an area where books can be uploaded and a style system to update the style of the page.
+There are three levels of administrative users to primarily protect students confidential information.
+One is like the administrative assistant who can fill out quesitonnaires only. Another can view the recorded test results and search for students given they know their email or name. The last is all access. There is also an area where books can be uploaded and a style system to update the style of the page.
 
 Although mostly functional the work is still incomplete and will take some time to get going.
 The quesitonnaire is however completely functional as is the functionallity to fill them.
