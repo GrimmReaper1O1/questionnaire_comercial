@@ -129,6 +129,7 @@ You can alter or fill out the questionnaire in the administrative functions but 
 There is also a way to quickly learn multiplication or at least utilize the times tables for cementation.
 There are three levels of administrative users to primarily protect students and confidential information.
 One is like the administrative assistant who can fill out quesitonnaires only.
+
 Another can view the recorded test results and search for students given they know their email or name.
 The last is all access. There is also an area where books can be uploaded and a style system to update the style of the page.
 
@@ -136,3 +137,7 @@ Although mostly functional the work is still incomplete and will take some time 
 The quesitonnaire is however completely functional as is the functionallity to fill them.
 I'll admit that the style system should have been done with Javascript but is primarily done with php.
 I wanted to cement my php and html skills.
+
+
+My apollogies, you will have to use the scheme document to fill the database and at this stage it may be erronious;
+however, any web developer worth a damn with sql skills can get it working quite easily.
