@@ -1,3 +1,19 @@
+Warning!!!
+This website is meant to be easy to configure in relation to users who may not know sql. There is a scheme document which
+has text that needs to be copied into microsoft management studio or dbeaver and will set up the database.
+The file will be better made upon completion of this project. The website configures itself with the username
+administrator@questionnaire.com as the root administrator. This administrator has all access privilages and cannot be
+deleted by the website itself; however, if deleted in the database any person who signs up can utilize this user 
+as a way to get root access, hence forbiding the website to delete it.
+Let it be known you should not delete the root administrator or super user administrator@quesitonnaire.com in the sql
+editor. A warning function on the first accessed page will however inform you of the need to create this user as soon 
+as possible if it has been deleted in the sql database.
+There should be no other means of accessing an administrative account.
+I chose Microsoft SQL because Microsoft SQL server 2017 is cheap at the cost of around 300 for two cals. We want to do
+things in a legal fashion.
+
+The project is meant for schools and to be run on a local area network.
+
 The questionnaire is built to utilize a theory of memory, which allows for the cementation of memory via 
 its usage to answer questions. Knowledge learnt from the subject page is thus utilized to answer a series of
 quesitons based on such knowledge. 
