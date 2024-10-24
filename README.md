@@ -131,10 +131,23 @@ There are three levels of administrative users to primarily protect students con
 One is like the administrative assistant who can fill out quesitonnaires only. Another can view the recorded test results and search for students given they know their email or name. The last is all access. There is also an area where books can be uploaded and a style system to update the style of the page.
 
 Although mostly functional the work is still incomplete and will take some time to get going.
-The quesitonnaire is however completely functional as is the functionallity to fill them.
-I'll admit that the style system should have been done with Javascript but is primarily done with php.
-I wanted to cement my php and html skills.
+The quesitonnaire is however somewhat functional as is the functionallity to fill them. There are php prototypes which are completely functional.
+The style system has been updated to Javascript and there is now a drop down menu in the most current version.
+Learning Javascript is tedious at best at the moment but then I've been doing it for less than two weeks. The Javascript in the questionnaire
+is mostly functional but there are errors that I can't track down at this stage that don't happen often. It needs refactoring at which stage 
+it will function differently and hopefully the errors will cease to exist. Thinking of separating the php pages to accomplish different aspects.
 
 
 My apollogies, you will have to use the scheme document to fill the database and at this stage it may be erronious;
-however, any web developer worth a damn with sql skills can get it working quite easily.
+however, any web developer with sql skills can get it working quite easily. For the most part it's good to go in version 6.3.
+
+The introduction to subjects page where there are images as apendixes isn't configured for the database entries but there is a table 
+in the database to store them and a recent page to store apendixes; however, the page in quesiton is not complete in version 6.3.
+It is however my next task to add audio and video as well as get the system to upload them function.
+
+Please be aware the php interperater will need the php.ini file altered to accomodate for video files of your choice of size. I'm 
+sticking to the size of 250 megabytes.
+
+The style system isn't set up for the questionnaire as it requires refactoring and there is an error in the style configuration 
+page which prevents the correct change in width for the introduction to subject page in relation to the bottom text box. Otherwise
+there is much to be done to release a final version.
