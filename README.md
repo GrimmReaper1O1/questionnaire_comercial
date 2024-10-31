@@ -146,20 +146,17 @@ There is also a way to quickly learn multiplication or at least utilize the time
 There are three levels of administrative users to primarily protect students confidential information.
 One is like the administrative assistant who can fill out quesitonnaires only. Another can view the recorded test results and search for students given they know their email or name. The last is all access. There is also an area where books can be uploaded and a style system to update the style of the page.
 
-Although mostly functional the work is still incomplete and will take some time to get going.
-The quesitonnaire is however somewhat functional as is the functionallity to fill them. There are php prototypes which are completely functional.
+As of version 6.7 the site is completely functional but is still incomplete and will take some time to refactor although the styling of the quesitonnaire isn't in place.
+The quesitonnaire is however completely functional as is the functionallity to fill them. There are php prototypes which are completely functional as well.
 The style system has been updated to Javascript and there is now a drop down menu in the most current version.
-Learning Javascript is tedious at best at the moment but then I've been doing it for less than two weeks. The Javascript in the questionnaire
-is mostly functional but there are errors that I can't track down at this stage that don't happen often. It needs refactoring at which stage 
-it will function differently and hopefully the errors will cease to exist. Thinking of separating the php pages to accomplish different aspects.
+Learning Javascript is tedious at best at the moment but then I've been doing it for less than two weeks. The questionnaire needs refactoring at which stage 
+it will have different styling based on the style config page. Thinking of separating the php pages to accomplish different aspects or incorporating some into themselves via javascript.
 
 
 My apollogies, you will have to use the scheme document to fill the database and at this stage it may be erronious;
-however, any web developer with sql skills can get it working quite easily. For the most part it's good to go in version 6.3.
+however, any web developer with sql skills can get it working quite easily. For the most part it's good to go in version 6.7.
 
-The introduction to subjects page where there are images as apendixes isn't configured for the database entries but there is a table 
-in the database to store them and a recent page to store apendixes; however, the page in quesiton is not complete in version 6.3.
-It is however my next task to add audio and video as well as get the system to upload them function.
+The introduction to subjects page is configured for video, audio, and image or qpendix entries via the use of the administrative pages.
 
 Please be aware the php interperater will need the php.ini file altered to accomodate for video files of your choice of size. I'm 
 sticking to the size of 250 megabytes.
@@ -167,3 +164,6 @@ sticking to the size of 250 megabytes.
 The style system isn't set up for the questionnaire as it requires refactoring and there is an error in the style configuration 
 page which prevents the correct change in width for the introduction to subject page in relation to the bottom text box. Otherwise
 there is much to be done to release a final version.
+
+I hope this contribution makes an impact to the disadvantaged via helping in thier education as the license agreement stipulates any not for profit or public school,
+or tertary education system may utilize this website for free, or at least at the cost of the software required as well as the computers to run it.
