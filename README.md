@@ -3,9 +3,9 @@ Questionnaire is an e-learning site which is under development. A release will b
 does not currently include a finished product. Questionnaire is meant to be but a framework to be completed by individuals 
 who know the propper way to accomplish the development of a site in order to make it safe and fesible for others to work on.
 The site was not developed with others working on it in mind. There are no comments and the code is not properly indented as
-I do not require indented code. That said the first release will function properly but that is all. My only aim is to make the
-development of a site cheaper for those who could afford less than others, thus as a developer or development team you must keep 
-this in mind.
+I do not require indented code. That said the first release will function properly and have as styling sytem that can alter
+the style of the pages, but that is all. My only aim is to make the development of a site cheaper for those who could afford 
+less than others, thus as a developer or development team you must keep this in mind.
 
 Disclaimer:
 Until the first release the site is not fully tested. There shouldn't be but may be vulnerabilities that I myself am unaware of;
