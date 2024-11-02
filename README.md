@@ -8,7 +8,8 @@ the style of the pages, but that is all. My only aim is to make the development 
 less than others, thus as a developer or development team you must keep this in mind.
 
 Disclaimer:
-Until the first release the site is not fully tested. There shouldn't be but may be vulnerabilities that I myself am unaware of;
+Until the first release the site is not fully tested. Currently there are no releases for this site and the version numbers are 
+simply so I can keep track of my work. There shouldn't be but may be vulnerabilities that I myself am unaware of;
 however, I do my best to ensure the site is safe to utilize and is functioning properly, but I cannot state it will function 
 adequately until a release is made.
 Please be aware that the code is given freely as is based on the license agreement. Until the first release I will not accept any
