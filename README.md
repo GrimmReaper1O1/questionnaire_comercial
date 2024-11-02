@@ -1,4 +1,5 @@
 Introduction:
+This site utilizes jQuery for its Javascript and PHP.
 Questionnaire is an e-learning site which is under development. A release will be made at some stage but this repository
 does not currently include a finished product. Questionnaire is meant to be but a framework to be completed by individuals 
 who know the propper way to accomplish the development of a site in order to make it safe and fesible for others to work on.
