@@ -1,3 +1,34 @@
+Introduction:
+Questionnaire is an e-learning site which is under development. A release will be made at some stage but this repository
+does not currently include a finished product. Questionnaire is meant to be but a framework to be completed by individuals 
+who know the propper way to accomplish the development of a site in order to make it safe and fesible for others to work on.
+The site was not developed with others working on it in mind. There are no comments and the code is not properly indented as
+I do not require indented code. That said the first release will function properly but that is all. My only aim is to make the
+development of a site cheaper for those who could afford less than others, thus as a developer or development team you must keep 
+this in mind.
+
+Disclaimer:
+Until the first release the site is not fully tested. There shouldn't be but may be vulnerabilities that I myself am unaware of;
+however, I do my best to ensure the site is safe to utilize and is functioning properly, but I cannot state it will function 
+adequately until a release is made.
+Please be aware that the code is given freely as is based on the license agreement. Until the first release I will not accept any
+payment for private schools usage, nor organizations, nor government institutions as the work is incomplete, but public schools and
+not for profits e.g. charities and religious institutions may start work if they deem it required based on this current work.
+As a developer, you take responsibility for that of which you promise and you take responsibility for that of which you create with 
+this work. I will accept none in that regard as the code is handed over as is. Again it is meant to be a framework not a finished 
+product, although the release should be good enough to use in a pinch on a local area network without much alteration when the time
+comes. 
+Be aware software comes with bugs that may be within this package and I myself may not be aware of them. In time I will create a means 
+of contact whereby I can recieve information from others but now is not that time as I am busy trying to complete the project.
+Please know, this is but a learning experience for me. I am not a trained developer other than text books and I must find ways and make
+ways to achieve the results within. The code may not be the standard way of doing things. I expect the developer who chooses to use the
+framework to read through it and decide as to whether he or she will benefit from using this framework. The results of your actions
+are indeed your responsibility.
+That said, version 3.9 functions as intended but doesn't have some of the functionallity required is they quesitonnaire linked in with
+style system.
+
+
+
 Warning!!!
 This website is meant to be easy to configure in relation to users who may not know sql. There is a scheme document which
 has text that needs to be copied into microsoft management studio or dbeaver and will set up the database.
