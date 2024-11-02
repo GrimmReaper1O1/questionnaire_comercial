@@ -38,9 +38,8 @@ administrator@questionnaire.com as the root administrator. This administrator ha
 deleted by the website itself; however, if deleted in the database any person who signs up can utilize this user 
 as a way to get root access, hence forbiding the website to delete it.
 Let it be known you should not delete the root administrator or super user administrator@quesitonnaire.com in the sql
-editor; however, the username should be changed to a desired email or login in the websites script as this username could be
-utilized in the current version to gain entry via brute force attack. A following version will try to subvert the vulnerability.
-A warning function on the first accessed page will however inform you of the need to create this user as soon 
+editor; however, the username should be changed to a desired email, although, there are countermeasures to brute force
+attack. A warning function on the first accessed page will however inform you of the need to create this user as soon 
 as possible if it has been deleted in the sql database.
 There should be no other means of accessing an administrative account.
 I chose Microsoft SQL because Microsoft SQL server 2017 is cheap at the cost of around 300 for two cals. We want to do
