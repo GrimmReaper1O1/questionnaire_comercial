@@ -16,6 +16,8 @@ things in a legal fashion.
 
 The project is meant for schools and to be run on a local area network.
 
+A counter measure for bruteforce attack has been added to the login system.
+
 As I've realized in this day and age there may be no way to prevent data breaches I've decided the best way to prevent
 the loss of any personal information is simply not to collect it. Other than the first middle and last name as well as
 test scores, all identifying contact information has been removed from the system. There is no phone number collected nor
