@@ -22,7 +22,7 @@ test scores, all identifying contact information has been removed from the syste
 email, but administrators can still upload their phonenumber and utilize their email address so that they can be contacted.
 
 Sadly this prevents the use of transactional email systems in order recover peoples passwords but functionallity will be added
-so higher level administrators can reset peoples passwords if need be given the user name matching a name.
+so higher level administrators can reset peoples passwords if need be given the username matching a name.
 
 The questionnaire is built to utilize a theory of memory, which allows for the cementation of memory via 
 its usage to answer questions. Knowledge learnt from the subject page is thus utilized to answer a series of
