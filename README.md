@@ -16,6 +16,14 @@ things in a legal fashion.
 
 The project is meant for schools and to be run on a local area network.
 
+As I've realized in this day and age there may be no way to prevent data breaches I've decided the best way to prevent
+the loss of any personal information is simply not to collect it. Other than the first middle and last name as well as
+test scores, all identifying contact information has been removed from the system. There is no phone number collected nor
+email, but administrators can still upload their phonenumber and utilize their email address so that they can be contacted.
+
+Sadly this prevents the use of transactional email systems in order recover peoples passwords but functionallity will be added
+so higher level administrators can reset peoples passwords if need be given the user name matching a name.
+
 The questionnaire is built to utilize a theory of memory, which allows for the cementation of memory via 
 its usage to answer questions. Knowledge learnt from the subject page is thus utilized to answer a series of
 quesitons based on such knowledge. 
