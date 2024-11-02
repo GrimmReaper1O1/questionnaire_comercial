@@ -55,8 +55,10 @@ the loss of any personal information is simply not to collect it. Other than the
 test scores, all identifying contact information has been removed from the system. There is no phone number collected nor
 email, but administrators can still upload their phonenumber and utilize their email address so that they can be contacted.
 
-Sadly this prevents the use of transactional email systems in order recover peoples passwords but functionallity will be added
-so higher level administrators can reset peoples passwords if need be given the username matching a name.
+Sadly this prevents the use of transactional email systems in order recover peoples passwords but functionallity has been 
+added to the search for students page that allows the viewer administrators to automatically reset the passwords of the 
+students via automatically generated passwords of a length of 8 characters. Administrators passwords may only be reset by 
+the super user administrators. Viewers and the lesser administrators may not alter any other admin password.
 
 The questionnaire is built to utilize a theory of memory, which allows for the cementation of memory via 
 its usage to answer questions. Knowledge learnt from the subject page is thus utilized to answer a series of
