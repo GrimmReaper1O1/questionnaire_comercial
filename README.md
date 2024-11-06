@@ -1,4 +1,7 @@
 Introduction:
+The site is still incomplete in a mannor of ways but is functional enough to train people at this stage. No release will be 
+made until it is up to scratch but with less work on your part you should be able to get it operational to your specifications.
+
 This site utilizes jQuery for its Javascript and PHP.
 Questionnaire is an e-learning site which is under development. A release will be made at some stage but this repository
 does not currently include a finished product. Questionnaire is meant to be but a framework to be completed by individuals 
@@ -59,6 +62,11 @@ Sadly this prevents the use of transactional email systems in order recover peop
 added to the search for students page that allows the viewer administrators to automatically reset the passwords of the 
 students via automatically generated passwords of a length of 8 characters. Administrators passwords may only be reset by 
 the super user administrators. Viewers and the lesser administrators may not alter any other admin password.
+
+There is now an sql file to install the database and get the system up and running rather easily. I apologize about the 
+previous method. It was a means to an end but was an erronious way of doing things due to a lack of funding nor understanding
+of opensource database management tools. Please be aware although the system is functional it still needs foreighn keys to delete 
+things but placeholders are mostly functional.
 
 The questionnaire is built to utilize a theory of memory, which allows for the cementation of memory via 
 its usage to answer questions. Knowledge learnt from the subject page is thus utilized to answer a series of
