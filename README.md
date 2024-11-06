@@ -6,7 +6,9 @@ Please be aware. There is no point in choosing previous versions as these versio
 version. The latest version is the version with the highest level of functionality and is most bug free. Hopefully, when I release
 the first release it will have no bugs at all.
 
-This site utilizes jQuery for its Javascript and PHP.
+This site utilizes jQuery for its Javascript and PHP. Be sure to download the questionnaire.sql file to fill your database with tables
+although at this point foreign keys have not been established.
+
 Questionnaire is an e-learning site which is under development. A release will be made at some stage but this repository
 does not currently include a finished product. Questionnaire is meant to be but a framework to be completed by individuals 
 who know the propper way to accomplish the development of a site in order to make it safe and fesible for others to work on.
@@ -33,8 +35,7 @@ Please know, this is but a learning experience for me. I am not a trained develo
 ways to achieve the results within. The code may not be the standard way of doing things. I expect the developer who chooses to use the
 framework to read through it and decide as to whether he or she will benefit from using this framework. The results of your actions
 are indeed your responsibility.
-That said, version 3.9 functions as intended but doesn't have some of the functionallity required is they quesitonnaire linked in with
-style system.
+
 
 
 
