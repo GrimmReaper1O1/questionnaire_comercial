@@ -55,6 +55,8 @@ things in a legal fashion.
 
 The project is meant for schools and to be run on a local area network.
 
+Now has loading bars for file uploads other than document uploads.
+
 A counter measure for bruteforce attack has been added to the login system.
 
 As I've realized in this day and age there may be no way to prevent data breaches I've decided the best way to prevent
