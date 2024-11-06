@@ -2,6 +2,10 @@ Introduction:
 The site is still incomplete in a mannor of ways but is functional enough to train people at this stage. No release will be 
 made until it is up to scratch but with less work on your part you should be able to get it operational to your specifications.
 
+Please be aware. There is no point in choosing previous versions as these versions are the stepping stones to get to the latest 
+version. The latest version is the version with the highest level of functionality and is most bug free. Hopefully, when I release
+the first release it will have no bugs at all.
+
 This site utilizes jQuery for its Javascript and PHP.
 Questionnaire is an e-learning site which is under development. A release will be made at some stage but this repository
 does not currently include a finished product. Questionnaire is meant to be but a framework to be completed by individuals 
