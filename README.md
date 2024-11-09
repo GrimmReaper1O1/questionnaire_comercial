@@ -1,5 +1,10 @@
 currently there are bugs in the system but a brief overview in video form is available on the link below...
 https://youtu.be/Df8XZyq_r_I
+
+problems within the questionnaire in regards to local storage space limitations have been solved in the next version. 
+It is suggested you wait until version 7.8 if you want to utilize the questionnaire with up to forty questions of long length 
+with up to six revolving questions each question id.
+
 Introduction:
 The site is still incomplete in a mannor of ways but is functional enough to train people at this stage. No release will be 
 made until it is up to scratch but with less work on your part you should be able to get it operational to your specifications.
