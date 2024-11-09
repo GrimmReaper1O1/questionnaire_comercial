@@ -1,6 +1,5 @@
 currently there are bugs in the system but a brief overview in video form is available on the link below...
-https://youtu.be/Jtl--ogi8pk
-
+https://youtu.be/Df8XZyq_r_I
 Introduction:
 The site is still incomplete in a mannor of ways but is functional enough to train people at this stage. No release will be 
 made until it is up to scratch but with less work on your part you should be able to get it operational to your specifications.
