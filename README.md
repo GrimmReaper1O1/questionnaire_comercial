@@ -1,13 +1,11 @@
 currently there are bugs in the system but a brief overview in video form is available on the link below...
 https://youtu.be/Df8XZyq_r_I
 
-Problems within the questionnaire in regards to local storage space limitations have been solved in the next version. 
-It is suggested you wait until version 7.8 if you want to utilize the questionnaire with up to forty questions of long length 
-with up to six revolving questions each question id. The questionnaire is in the process of being refactored and currently
-needs only one page load to gather more information after it reaches the result page. When changing pages it still goes through
-questionnaireBuff.php to submit to a version change if necessary. The questionnaire is almost completely bug free with the exception
-of the limitations of indexeddb storage time required before error but this may also be solved. Over five MB of information was handed
-over to indexedDB in the last test and it worked.
+Problems with the questionnaire handling large pages of over 40 incredibly long questions with six revolving questions each question
+Id have been solved and the revolving refresh of the questionnaire has been made stable. Still haven't linked the score system in with
+the results page unsure how I'm going to go about doing it as of yet. Refactored to not require page reloads other than one past the 
+answer screen. Seems completely stable and saves to indexedDB well. Now creates multiple databases, one per subject multiple object stores 
+one per page. Seems to do the job. Will do further testing on having more pages next.
 
 Introduction:
 The site is still incomplete in a mannor of ways but is functional enough to train people at this stage. No release will be 
