@@ -2,10 +2,14 @@ currently there are bugs in the system but a brief overview in video form is ava
 https://youtu.be/VB6Ac1lmKCA
 
 Problems with the questionnaire handling large pages of over 40 incredibly long questions with six revolving questions each question
-Id have been solved and the revolving refresh of the questionnaire has been made stable. Still haven't linked the score system in with
-the results page unsure how I'm going to go about doing it as of yet. Refactored to not require page reloads other than one past the 
-answer screen. Seems completely stable and saves to indexedDB well. Now creates multiple databases, one per subject multiple object stores 
-one per page. Seems to do the job. Will do further testing on having more pages next.
+Id have been solved and the revolving refresh of the questionnaire has been made stable. The promise I made doesn't seem to like the
+I put in them causing an undefined error so I had to repeat myself. The multiple choice question page is as refactored as it's ever 
+going to get. At this point there is minimal work required to get it operational but foreign keys are still required to be implemented.
+Don't forget to download the vendor file for the source directory and ensure the shared html directory sits one above the directory where
+the config files go.
+
+current required files are questionnaire_7.8.zip questionnaire.sql and vendor.zip
+
 
 Introduction:
 The site is still incomplete in a mannor of ways but is functional enough to train people at this stage. No release will be 
