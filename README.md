@@ -12,9 +12,10 @@ out myself.
 If you don't like it, I'm sorry but I did my best and I don't have a development team. It will be completed as soon as possible.
 
 
-Incomplete version 10.1 is the most current and stable version though there are minor bugs and the page could use a bit more finess with the default
+Incomplete version 10.2 is the most current and stable version though there are minor bugs and the page could use a bit more finess with the default
 styling; however, I don't consider this important at this stage. Thinking of implementing a choice of site default style to be forced via admin 
-functionallity. Will work to resolve found bugs first.
+functionallity. Will work to resolve found bugs first. Recently resolved page unstability when refreshing and switching pages now requires less 
+database requests if the said page is not past the last question information.
 
 Problems with the questionnaire handling large pages of over 40 incredibly long questions with six revolving questions each question
 Id have been solved and the revolving refresh of the questionnaire has been made stable. The promise I made doesn't seem to like the
