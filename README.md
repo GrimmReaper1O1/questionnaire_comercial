@@ -1,6 +1,17 @@
 currently there are bugs in the system but a brief overview in video form is available on the link below...
 https://youtu.be/VB6Ac1lmKCA
 
+if you want to submit ideas or requests or report bugs feel free to msg me at the below facebook page...
+https://www.facebook.com/profile.php?id=61568770553648
+The facebook page name is...
+Questionnaire, the website framework.
+
+Please be aware, i'm only one man, not a development team and this is meant to be a framework for you to alter and utilize to compete yourselves.
+I make every effort in the time available to do my best in the creation of this but I was trained via books and basically have to work everything
+out myself.
+If you don't like it, I'm sorry but I did my best and I don't have a development team. It will be completed as soon as possible.
+
+
 Incomplete version 10.1 is the most current and stable version though there are minor bugs and the page could use a bit more finess with the default
 styling; however, I don't consider this important at this stage. Thinking of implementing a choice of site default style to be forced via admin 
 functionallity. Will work to resolve found bugs first.
