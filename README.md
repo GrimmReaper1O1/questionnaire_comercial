@@ -6,7 +6,7 @@ https://www.facebook.com/profile.php?id=61568770553648
 The facebook page name is...
 Questionnaire, the website framework.
 
-Please be aware, i'm only one man, not a development team and this is meant to be a framework for you to alter and utilize to compete yourselves.
+Please be aware, i'm only one man, not a development team and this is meant to be a framework for you to alter and utilize to complete yourselves.
 I make every effort in the time available to do my best in the creation of this but I was trained via books and basically have to work everything
 out myself.
 If you don't like it, I'm sorry but I did my best and I don't have a development team. It will be completed as soon as possible.
