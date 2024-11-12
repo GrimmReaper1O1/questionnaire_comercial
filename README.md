@@ -1,14 +1,18 @@
 currently there are bugs in the system but a brief overview in video form is available on the link below...
 https://youtu.be/VB6Ac1lmKCA
 
+Incomplete version 10.1 is the most current and stable version though there are minor bugs and the page could use a bit more finess with the default
+styling; however, I don't consider this important at this stage. Thinking of implementing a choice of site default style to be forced via admin 
+functionallity. Will work to resolve found bugs first.
+
 Problems with the questionnaire handling large pages of over 40 incredibly long questions with six revolving questions each question
 Id have been solved and the revolving refresh of the questionnaire has been made stable. The promise I made doesn't seem to like the
-I put in them causing an undefined error so I had to repeat myself. The multiple choice question page is as refactored as it's ever 
-going to get. At this point there is minimal work required to get it operational but foreign keys are still required to be implemented.
+functions I put in them causing an undefined error so I had to break the dnrys rule. The multiple choice question page is as refactored to a point.
+At the moment there is minimal work required to get it operational but foreign keys are still required to be implemented.
 Don't forget to download the vendor file for the source directory and ensure the shared html directory sits one above the directory where
 the config files go.
 
-current required files are questionnaire_7.8.zip questionnaire.sql and vendor.zip
+current required files are questionnaire_10.1_questionnaire_completely_functional_with_results_other_bugs_exist.zip questionnaire.sql and vendor.zip
 
 
 Introduction:
