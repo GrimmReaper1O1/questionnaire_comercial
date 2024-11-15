@@ -11,6 +11,8 @@ I make every effort in the time available to do my best in the creation of this 
 out myself.
 If you don't like it, I'm sorry but I did my best and I don't have a development team. It will be completed as soon as possible.
 
+My appologies the previous questionnaire.sql file needed alteration to not require usernames and passwords in pre-existance. The current one only 
+needs you to create a database called questionnaire. After this the database can be fully loaded. Again... My bad.
 
 Incomplete version 10.5 is the most current and stable version though there are minor bugs with pages other than the questionnaire.
 The page could use a bit more finess with the default styling; however, I don't consider this important at this stage. 
