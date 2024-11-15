@@ -12,12 +12,16 @@ out myself.
 If you don't like it, I'm sorry but I did my best and I don't have a development team. It will be completed as soon as possible.
 
 
-Incomplete version 10.3 is the most current and stable version though there are minor bugs with pages other than the questionnaire.
+Incomplete version 10.5 is the most current and stable version though there are minor bugs with pages other than the questionnaire.
 The page could use a bit more finess with the default styling; however, I don't consider this important at this stage. 
 Thinking of implementing a choice of site default style to be forced via admin functionallity. Will work to resolve found bugs first. 
 Recently resolved page unstability when refreshing and switching pages now requires less database requests if the said page is not past 
 the last question information. 
 The questionnaire now picks up from where it left off after the users computer has been filled in regards to the page in question.
+
+Fixed the issue with version 10.3 in regards to a user that didn't select a style which didn't allow the styling to function within
+the quesitonnaire that resulted in a blank page. Now truely works perfectly. Only thing left with that is to create a way for the 
+administrators of the site to select a default style.
 
 Problems with the questionnaire handling large pages of over 40 incredibly long questions with six revolving questions each question
 Id have been solved and the revolving refresh of the questionnaire has been made stable. The promise I made doesn't seem to like the
