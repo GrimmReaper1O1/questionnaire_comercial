@@ -16,7 +16,7 @@ If you don't like it, I'm sorry but I did my best and I don't have a development
 My appologies the previous questionnaire.sql file needed alteration to not require usernames and passwords in pre-existance. The current one only 
 needs you to create a database called questionnaire. After this the database can be fully loaded. Again... My bad.
 
-Incomplete version 10.6 is the most current and stable version though there are minor bugs with pages other than the questionnaire.
+Incomplete version 10.8 is the most current and stable version though there are minor bugs with pages other than the questionnaire.
 The page could use a bit more finess with the default styling; however, I don't consider this important at this stage. 
 Thinking of implementing a choice of site default style to be forced via admin functionallity. Will work to resolve found bugs first. 
 Recently resolved page unstability when refreshing and switching pages now requires less database requests if the said page is not past 
