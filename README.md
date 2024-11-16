@@ -34,7 +34,7 @@ At the moment there is minimal work required to get it operational but foreign k
 Don't forget to download the vendor file for the source directory and ensure the shared html directory sits one above the directory where
 the config files go.
 
-current required files are questionnaire_10.1_questionnaire_completely_functional_with_results_other_bugs_exist.zip questionnaire.sql and vendor.zip
+current required files are questionnaire_10.8.zip questionnaire.sql and vendor.zip
 
 
 Introduction:
