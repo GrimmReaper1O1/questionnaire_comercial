@@ -8,36 +8,38 @@ https://www.facebook.com/profile.php?id=61568770553648
 The facebook page name is...
 Questionnaire, the website framework.
 
-Please be aware, i'm only one man, not a development team and this is meant to be a framework for you to alter and utilize to complete yourselves.
-I make every effort in the time available to do my best in the creation of this but I was trained via books and basically have to work everything
-out myself.
+Please be aware, i'm only one man, not a development team and this is meant to be a framework for you to alter and utilize to complete yourselves
+or use as is for some school system or not for profit. I make every effort in the time available to do my best in the creation of this but I was 
+trained via books and basically have to work everything out myself; however, version 11 is a fairly formidable system for want of foreign keys in
+the database. 
+It does include a bug in the style creation page but otherwise is complete for use in public school systems. I have tested it to a small
+degree and am sure it is satisfactory. After I establish foreign keys and update the login page as well as the signin page to look better my work on 
+this endeavor will be completed. I do, however, suggest it be altered to include a div in the background that doesn't move with scrolling to display
+an image that would otherwise be displayed via the background of the other div. I will endeavor to do this myself at some stage but not in the forseable
+future. Thankyou for your patience and please donate to either save the children or a charity of your choosing. I'm also fond of the red cross housing 
+appeal.
 
-Other than a few bugs and diagnostic messages version 10.9 is a pretty worthy adversary. It still doesn't have foreign keys and the deletion system 
-will be updated when the foreign keys are established. Some checks need to be done on the length of things for verification, but if you delete the 
-diagnostic messages and it's run on a local area network as it's supposed to be with it's own either express server, which would be free, or 2017 
-microsoft sql server it's basically good to go. There may require some css to be done. Otherwise the problems are simply asthetic. I will endeavor to
-finnish the project for you over the next few days.
-
-current required files are questionnaire_10.9.zip questionnaire.sql and vendor.zip
+current required files are questionnaire_11.zip questionnaire.sql and vendor.zip
 
 
 Introduction:
-The site is still incomplete in a mannor of ways but is functional enough to train people at this stage. No release will be 
-made until it is up to scratch but with less work on your part you should be able to get it operational to your specifications.
+The site is but a stones throw from completion. Again it is a framework but is already good enough to run on a local network to train people. As a 
+framework you are meant to finish any styling yourself including the login page and head page for your clients. In a short time I will do better in this
+endeavour.
 
 Please be aware. There is no point in choosing previous versions as these versions are the stepping stones to get to the latest 
 version. The latest version is the version with the highest level of functionality and is most bug free. Hopefully, when I release
 the first release it will have no bugs at all.
 
-This site utilizes jQuery for its Javascript and PHP. Be sure to download the questionnaire.sql file to fill your database with tables
+This site utilizes jQuery for its Javascript and PHP as well as Microsoft SQL Sever as its database. Be sure to download the questionnaire.sql file to fill your database with tables
 although at this point foreign keys have not been established.
 
-Questionnaire is an e-learning site which is under development. A release will be made at some stage but this repository
-does not currently include a finished product. Questionnaire is meant to be but a framework to be completed by individuals 
+Questionnaire is an e-learning site which is almost finished in its development. The final release will have final which will mark it as a finished framework.
+Please remember that Questionnaire is meant to be but a framework to be completed by individuals 
 who know the propper way to accomplish the development of a site in order to make it safe and fesible for others to work on.
-The site was not developed with others working on it in mind. There are no comments and the code is not properly indented as
-I do not require indented code. That said the first release will function properly and have as styling sytem that can alter
-the style of the pages, but that is all. My only aim is to make the development of a site cheaper for those who could afford 
+There are no comments and the code is not necessarily properly indented as I do not require indented code. That said the first 
+release will function properly and have as styling sytem that can alterthe style of the pages, but that is all. 
+My only aim is to make the development of a site cheaper for those who could afford 
 less than others, thus as a developer or development team you must keep this in mind.
 
 Disclaimer:
@@ -63,25 +65,20 @@ are indeed your responsibility.
 
 
 Warning!!!
-This website is meant to be easy to configure in relation to users who may not know sql. There is a scheme document which
-has text that needs to be copied into microsoft management studio or dbeaver and will set up the database.
-The file will be better made upon completion of this project. The website configures itself with the username
-administrator@questionnaire.com as the root administrator. This administrator has all access privilages and cannot be
-deleted by the website itself; however, if deleted in the database any person who signs up can utilize this user 
-as a way to get root access, hence forbiding the website to delete it.
+This website is meant to be easy to configure in relation to users who may not know sql. There is a sql file which can be inserted
+into microsoft management studio or dbeaver and will set up the database given you create the questionnaire database entry.
+You will also need to reconfigure the username and password in the configuration file to suite.
+ The website configures itself with the username administrator@questionnaire.com as the root administrator. 
+ This administrator has all access privilages and cannot be deleted by the website itself; however, if deleted in the database any 
+ person who signs up can utilize this user as a way to get root access, hence forbiding the website to delete it.
 Let it be known you should not delete the root administrator or super user administrator@quesitonnaire.com in the sql
-editor; however, the username should be changed to a desired email, although, there are countermeasures to brute force
+editor; however, the username should be changed to a desired email within the php script, although, there are countermeasures to brute force
 attack. A warning function on the first accessed page will however inform you of the need to create this user as soon 
-as possible if it has been deleted in the sql database.
+as possible if it has been deleted in the sql database. This can be done by signing up to the site with that username.
 There should be no other means of accessing an administrative account.
 I chose Microsoft SQL because Microsoft SQL server 2017 is cheap at the cost of around 300 for two cals. We want to do
-things in a legal fashion.
+things in a legal fashion. I hear, but don't quote me, that express is free but may not satisfy your needs.
 
-The project is meant for schools and to be run on a local area network.
-
-Now has loading bars for file uploads other than document uploads.
-
-A counter measure for bruteforce attack has been added to the login system.
 
 As I've realized in this day and age there may be no way to prevent data breaches I've decided the best way to prevent
 the loss of any personal information is simply not to collect it. Other than the first middle and last name as well as
@@ -93,11 +90,47 @@ added to the search for students page that allows the viewer administrators to a
 students via automatically generated passwords of a length of 8 characters. Administrators passwords may only be reset by 
 the super user administrators. Viewers and the lesser administrators may not alter any other admin password.
 
+
+Setting up the website
+There is a file to follow in regards to setting up a Rocky Linux Server system but I'm no security expert I take no responsibility
+should anything go wrong, it's up to you whether you use it and I'm yet to fully test it.
+You will need the following files... questionnaire_11.zip questionnaire.sql and vendor.zip these must be extracted into the www
+directory in var on the root directory otherwise known as /var/www after setting up a rocky linux server. You will need to utilize 
+some form of software to create the database questionnaire via that name and the command create database questionnaire can be entered
+into sql command. 
+sqlcmd -S localhost -U <your username possibly sa> -P <your password> you can access sql command if you installed it with that command.
+create database questionnaire <press enter>
+go <press enter>
+exit <press enter>
+The next command will install the sql file in the database previously created. Please be aware you shouldn't use sa unless it's on your schools
+local netork. If you log in with microsoft management studio you can change the login details or dbeaver or some other application. Don't know how
+to do it with commands at this stage. but this will get you running. If you are in a school and not online with this site you should be behind a 
+firewall and it might be safe enough. Otherwise all that is at risk is the data and you should backup your system when it's filled and periodically.
+Again I'm no expert in setting up an SQL server please seek a professional if it matters.
+
+sqlcmd -S localhost -U <your username possibly sa> -P <your password> -i questionnaire.sql
+The project is meant for schools and to be run on a local area network or not for profits.
+
+After this you should be good to run the system.
+
+
 There is now an sql file to install the database and get the system up and running rather easily. I apologize about the 
 previous method. It was a means to an end but was an erronious way of doing things due to a lack of funding nor understanding
 of opensource database management tools. Please be aware although the system is functional it still needs foreighn keys to delete 
 things but placeholders are mostly functional.
 
+
+A bit about the website.
+There are administrative functions and a library, which if within a class will limit the shown books to the class.
+You can alter or fill out the questionnaire in the administrative functions, but a subject must be taken down.
+There is also a way to quickly learn multiplication or at least utilize the times tables for cementation.
+There are three levels of administrative users to primarily protect students confidential information.
+One is like the administrative assistant who can fill out quesitonnaires only. Another can view the recorded test results and search for students given they know their email or name. The last is all access. There is also an area where books can be uploaded and a style system to update the style of the page.
+
+The introduction to subjects page is configured for video, audio, and image or qpendix entries via the use of the administrative pages.
+
+
+A bit about the questionnaire and how to fill it.
 The questionnaire is built to utilize a theory of memory, which allows for the cementation of memory via 
 its usage to answer questions. Knowledge learnt from the subject page is thus utilized to answer a series of
 quesitons based on such knowledge. 
@@ -224,17 +257,7 @@ Correct! You utilize the semi-column at the start of a long list and in between 
 Hint 
 A semi-colun is used after a complete sentence with a conjunctive adverb.
 
-There are administrative functions and a library, which if within a class will limit the shown books to the class.
-You can alter or fill out the questionnaire in the administrative functions, but a subject must be taken down.
-There is also a way to quickly learn multiplication or at least utilize the times tables for cementation.
-There are three levels of administrative users to primarily protect students confidential information.
-One is like the administrative assistant who can fill out quesitonnaires only. Another can view the recorded test results and search for students given they know their email or name. The last is all access. There is also an area where books can be uploaded and a style system to update the style of the page.
 
-
-The introduction to subjects page is configured for video, audio, and image or qpendix entries via the use of the administrative pages.
-
-Please be aware the php interperater will need the php.ini file altered to accomodate for video files of your choice of size. I'm 
-sticking to the size of 250 megabytes.
 
 I hope this contribution makes an impact to the disadvantaged via helping in thier education as the license agreement stipulates any not for profit or public school,
 or public tertary education system may utilize this website for free, or at least at the cost of the software required as well as the computers to run it.
