@@ -11,30 +11,14 @@ Questionnaire, the website framework.
 Please be aware, i'm only one man, not a development team and this is meant to be a framework for you to alter and utilize to complete yourselves.
 I make every effort in the time available to do my best in the creation of this but I was trained via books and basically have to work everything
 out myself.
-If you don't like it, I'm sorry but I did my best and I don't have a development team. It will be completed as soon as possible.
 
-My appologies the previous questionnaire.sql file needed alteration to not require usernames and passwords in pre-existance. The current one only 
-needs you to create a database called questionnaire. After this the database can be fully loaded. Again... My bad.
+Other than a few bugs and diagnostic messages version 10.9 is a pretty worthy adversary. It still doesn't have foreign keys and the deletion system 
+will be updated when the foreign keys are established. Some checks need to be done on the length of things for verification, but if you delete the 
+diagnostic messages and it's run on a local area network as it's supposed to be with it's own either express server, which would be free, or 2017 
+microsoft sql server it's basically good to go. There may require some css to be done. Otherwise the problems are simply asthetic. I will endeavor to
+finnish the project for you over the next few days.
 
-Incomplete version 10.8 is the most current and stable version though there are minor bugs with pages other than the questionnaire.
-The page could use a bit more finess with the default styling; however, I don't consider this important at this stage. 
-Thinking of implementing a choice of site default style to be forced via admin functionallity. Will work to resolve found bugs first. 
-Recently resolved page unstability when refreshing and switching pages now requires less database requests if the said page is not past 
-the last question information. 
-The questionnaire now picks up from where it left off after the users computer has been filled in regards to the page in question.
-
-Fixed the issue with version 10.3 in regards to a user that didn't select a style which didn't allow the styling to function within
-the quesitonnaire that resulted in a blank page. Now truely works perfectly. Only thing left with that is to create a way for the 
-administrators of the site to select a default style.
-
-Problems with the questionnaire handling large pages of over 40 incredibly long questions with six revolving questions each question
-Id have been solved and the revolving refresh of the questionnaire has been made stable. The promise I made doesn't seem to like the
-functions I put in them causing an undefined error so I had to break the dnrys rule. The multiple choice question page is as refactored to a point.
-At the moment there is minimal work required to get it operational but foreign keys are still required to be implemented.
-Don't forget to download the vendor file for the source directory and ensure the shared html directory sits one above the directory where
-the config files go.
-
-current required files are questionnaire_10.8.zip questionnaire.sql and vendor.zip
+current required files are questionnaire_10.9.zip questionnaire.sql and vendor.zip
 
 
 Introduction:
