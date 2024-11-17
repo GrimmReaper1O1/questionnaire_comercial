@@ -1,0 +1,189 @@
+Please be aware this is a basic untested way of getting a web server with php and mssql
+running. I will test this next time I need to reinstall but it takes ages and so I may 
+take a while to confirm.
+You can also run mssql server from a windows machine and link the linux computer to it with this.
+
+warning!!! this is not set up to ensure the safety of an external sql database; however the sql database
+on the maching should not be accessable from another computer. Couldn't figure out how to get that working.
+If you use an external sql server it would be best to only allow port 1433 and port 1434 open to a network
+card directly connected to the database. Otherwise the firewall should block all connections other than 
+the web servers and there should be no means of easily accessing the machine remotely, even with the passwords. Vulnerabilities may exist in the system that I am unaware of. In not a hacker nor a security
+expert.
+
+
+
+Download a copy of Rocky linux 9 and a copy of rufus.
+Rufus will allow you to clone the linux image onto a usb drive.
+Use rufus to imprint the image onto the thumb drive.
+You may need to enter the bios to choose the correct boot option.
+Insert the above usb drive.
+Once the correct boot option is established in the bios or through the boot menu the system
+will boot to the linux drive. Choose the option to install rocky linux 9 and wait.
+Install only the server GUI. Nothing else as at this stage it may not work.
+fill in the options and select passwords and the storage location. You're on your own on this 
+one but you'll figure it out. Ensure you enter the root password.
+
+Once Rocky linux is installed and booted enter password and enter system.
+Open the terminal.
+type su and enter the root password for the password prompt.
+Set up your network either wifi or wired.
+
+To secure the systems firewall you can type the following commands
+
+this dissables ssh access to the machine thereby preventing people from talking to the system
+to administer it via a terminal like prompt. if you do the below only a person standing at the computer
+will have access.
+
+firewall-cmd --permanent --zone=public --remove-service=ssh
+This allows browser or web traffic from your server
+firewall-cmd --permanent --add-service={http,https}
+firewall-cmd --permanent --add-ports=1433/tcp
+firewall-cmd --permanent --add-ports=1434/udp
+This reloads the firewall.
+firewall-cmd --reload
+
+alternatively use to configure through gui
+dnf install firewall-config
+
+this installs an application necessary to remove the ssh server program ensuring nothing can 
+log on with ssh.
+
+dnf install chkconfig
+chkconfig sshd off
+service sshd stop
+erase openssh-server
+
+remove the gui remote configureing interface
+dnf remove cockpit 
+
+this installs your apache web server.
+dnf install httpd
+
+this updates your system
+dnf update
+
+
+this installs unixODBC driver for use with php and mssql db as well as mssql server.
+Ensure you have purchased a key for your system and the calls. I recommend for a small 
+system microsoft sql server 2017. it's cheap and the cals are cheap too. You will need a 
+device cal and a user cal. If you're just learning and not doing it commercially as I am
+install express and you don't need keys,
+but read the license agreement I may be wrong.
+dnf --enablerepo=crb install unixODBC
+dnf --enablerepo=crb install unixODBC-devel
+dnf makecache --refresh
+
+curl https://packages.microsoft.com/config/rhel/9/mssql-server-2022.repo -o /etc/yum.repos.d/mssql-server-2022.repo
+curl https://packages.microsoft.com/config/rhel/9/prod.repo -o /etc/yum.repos.d/msprod.repo
+dnf install mssql-server
+dnf install mssql-tools unixODBC-devel
+rpm -qi mssql-server
+
+here is where we install mssql-server
+curl https://packages.microsoft.com/config/rhel/9/prod.repo -o /etc/yum.repos.d/msprod.repo
+dnf install mssql-server
+
+we need to run this to configure mssql server. Here we insert the license key or choose express
+/opt/mssql/bin/mssql-conf setup
+This is optional as there are database IDE applications available
+curl -o /etc/yum.repos.d/mssql-prod.repo https://packages.microsoft.com/config/rhel/8/prod.repo
+dnf repolist
+echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+source ~/.bashrc
+echo $PATH
+which sqlcmd
+
+This will test the database given you placed in these values
+
+This will update the system again.
+dnf update
+
+If you want to install ms vscode you can do this.
+nano /etc/yum.repos.d/vscode.repo
+
+insert this text into the file.
+
+[code]
+
+name=VS Code
+
+baseurl=https://packages.microsoft.com/yumrepos/vscode
+
+enabled=1
+
+gpgcheck=1
+
+gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+
+
+Ensure you save it with ctrl+x
+
+
+dnf install code
+
+
+Install sql database management system and ensure the file is an .rpm file
+download dbeaver
+
+installs the file
+sudo rpm -i "the filename"
+
+
+systemctl enable mssql-server
+systemctl start mssql-server
+sudo systemctl status mssql-server --no-pager
+
+ensure it's enabled and working then press ctrl+c
+
+
+install repositories to install php
+dnf config-manager --set-enabled crb
+dnf install \
+    https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm \
+    https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm
+dnf install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-9.rpm -y
+dnf module list php
+dnf module enable php:remi-8.3 -y
+
+dnf install php-devel
+dnf install php-xdebug php-pcov
+dnf install php-sqlsrv
+nano ~/.odbc.ini
+dnf install php php-fpm php-mysqlnd php-gd php-cli php-curl php-mbstring php-bcmath php-zip php-opcache php-xml php-json php-intl
+
+
+
+make an odbc file and save it as before
+nano ~/.odbc.ini
+
+insert this 
+
+
+  GNU nano 5.6.1                   /root/.odbc.ini                              
+[MSSQL]
+Driver = ODBC Driver 17 for SQL Server
+Server = localhost
+#Port = 1433
+User = SA
+Password = Superman1983!
+Database = data2
+Language = us_english
+NeedODBCTypesOnly = 1
+
+ensure microsoft sql server has access to the network.
+
+setsebool -P httpd_can_network_connect_db 1
+setsebool -P httpd_can_network_connect 1
+
+if you delete mssql with dnf and reinstall it won't run unless you delete the /var/opt/mssql directory.
+
+open dbeaver and utilize questionnaire.sql to get the tables in the database. you may need to enable the 
+ssh tunneling to get it to work the ssh server isn't required for this.
+
+
+sqlcmd -S localhost -U <your username possibly sa> -P <your password>
+create database questionnaire <press enter>
+go <press enter>
+exit <press enter>
+
+sqlcmd -S localhost -U <your username possibly sa> -P <your password> -i questionnaire.sql
