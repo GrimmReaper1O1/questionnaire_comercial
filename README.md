@@ -13,13 +13,13 @@ or use as is for some school system or not for profit. I make every effort in th
 trained via books and basically have to work everything out myself; however, version 11 is a fairly formidable system for want of foreign keys in
 the database. 
 It does include a bug in the style creation page but otherwise is complete for use in public school systems. I have tested it to a small
-degree and am sure it is satisfactory. After I establish foreign keys and update the login page as well as the signin page to look better my work on 
-this endeavor will be completed. I do, however, suggest it be altered to include a div in the background that doesn't move with scrolling to display
-an image that would otherwise be displayed via the background of the other div. I will endeavor to do this myself at some stage but not in the forseable
-future. Thankyou for your patience and please donate to either save the children or a charity of your choosing. I'm also fond of the red cross housing 
+degree and am sure it is satisfactory. I have established foreign keys and indexes but am yet to update the login page as well as the signin page to look 
+better. After this my work on this endeavor will be completed. I do, however, suggest it be altered to include a div in the background that doesn't move with 
+scrolling to display an image that would otherwise be displayed via the background of the other div. I will endeavor to do this myself at some stage but not in 
+the forseable future. Thankyou for your patience and please donate to either save the children or a charity of your choosing. I'm also fond of the red cross housing 
 appeal.
 
-current required files are questionnaire_11.1.zip questionnaire.sql and vendor.zip
+current required files are questionnaire_12.1.zip questionnaire.sql and vendor.zip
 
 
 Introduction:
