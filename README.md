@@ -1,3 +1,9 @@
+Message.
+Although I know of one bug in the create style system page and haven't fully tested the system. I deem it good enough for the moment 
+and as it's taken two years years to develop this system I'm going to take a hiatus for around a month before doing the final work.
+If you please leave me a message with known bugs in the facebook page provided. It would be greatly appreciated. Otherwise I hope 
+I did well and I hope this helps. next verion will be in a month. 20/11/2024.
+
 A video of an updated version of the questionnaire and it's functionning is below. However, the style system design needs to be repaired...
 https://youtu.be/y5jchK8drCg
 currently there are bugs in the system but a brief overview in video form is available on the link below...
